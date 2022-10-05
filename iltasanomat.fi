@@ -1,0 +1,8 @@
+# mainokset artikkelien välissä:
+is.fi##div[class = ""]:has(div#kumppaneiden-tarjoukset)
+# mainosartikkelit:
+is.fi##div[class = ""]:has(article[class *= "advert"])
+# oikean kolumnin siistintä:
+is.fi##div[class = ""]:has(div.mb-8:has-text(Lehti luettavissa näköislehtenä))
+is.fi##div[class = ""]:has(> div.jsx-1790343954 > div.iframe-container > iframe)
+is.fi##div.hidden:has(h2:has-text(Alennuskoodit))
