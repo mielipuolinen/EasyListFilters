@@ -1,0 +1,22 @@
+# plus-artikkelit:
+iltalehti.fi##div.fp-container:has(svg.il-plus-svg-logo)
+iltalehti.fi##div.article-container:has(svg.il-plus-svg-logo)
+iltalehti.fi##div.card:has(> div.full-article):has(svg.il-plus-svg-logo)
+iltalehti.fi##div.half-article:has(svg.il-plus-svg-logo)
+# kaupalliset yhteistyöt:
+iltalehti.fi##div.fp-container:not(:has(div.thin-article)):has(> div.full-article > a > div.list-image-container:nth-child(2))
+iltalehti.fi##a:has(> div.article-sponsored)
+iltalehti.fi##a.puffi:has(> svg.il-plus-svg-logo)
+iltalehti.fi##a.order-plus-nav
+# lähetä uutisvihje feedissä:
+iltalehti.fi##div.card:has(> a.list-embed-margins)
+# monster-työpaikat:
+iltalehti.fi##div.category-list-embed:has(iframe[src *= "monster.almamedia.fi"])
+# etuovi:
+iltalehti.fi##div.etuovi-embed-placeholder
+# oikean kolumnin siistintä:
+iltalehti.fi##div.card:has(> div.block > div > div.etua-react-embed)
+iltalehti.fi##div.card:has(> div.block > div.card > div#il-rantapallo-right-column-box)
+iltalehti.fi##div.card:has(> div.alennuskoodi-column-embed)
+iltalehti.fi##div.card:has(> div.block > a.nakoislehti-column-box)
+iltalehti.fi##div.card:has(> div.block > div.newsletter-column-embed)
